@@ -45,7 +45,7 @@ was in the array shown above. A visual diagram of how binary search would work i
 
 Here’s what the implementation of a binary search looks like in Java:
 
-### BinarySearch Definition
+### Binary Search Definition
 
 ```java
 public class BinarySearch {
