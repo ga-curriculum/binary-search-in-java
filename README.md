@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Binary Search
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Understanding Binary Search
 
-| Title         | Type   | Duration | Author               |
-|---------------|--------|----------|----------------------|
-| Binary Search | Lesson | 1:00     | Suresh Melvin Sigera |
+| Title                       | Type   | Duration | Author               |
+|-----------------------------|--------|----------|----------------------|
+| Understanding Binary Search | Lesson | 1:00     | Suresh Melvin Sigera |
 
 ### Learning Objectives
 
@@ -29,8 +29,8 @@ was in the array shown above. A visual diagram of how binary search would work i
    Typically, `low` is initialized to `0` (the start of the array) and `high` is set to `array.length - 1` (the end of
    the array).
 3. **Locate the Middle Element**: While the low pointer is less than or equal to the high pointer:
-   - Calculate the middle position, `mid`, typically with `mid = low + (high - low) / 2` to avoid potential overflow.
-   - Compare the middle element with the target value.
+    - Calculate the middle position, `mid`, typically with `mid = low + (high - low) / 2` to avoid potential overflow.
+    - Compare the middle element with the target value.
 4. **Check for Match**:
     - If the middle element matches the target, return the index of this element.
     - If the target value is greater than the middle element (for ascending order), adjust the `low` pointer
