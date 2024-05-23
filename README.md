@@ -41,7 +41,7 @@ was in the array shown above. A visual diagram of how binary search would work i
 6. **Return Result**: If the loop exits without a match, return `-1` or some indicator that the target value is not
    present in the array.
 
-### Implementation in Java
+## Implementation in Java
 
 Here’s what the implementation of a binary search looks like in Java:
 
