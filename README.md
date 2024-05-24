@@ -1,14 +1,25 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Understanding Binary Search
 
-| Title                       | Type   | Duration | Author               |
-|-----------------------------|--------|----------|----------------------|
-| Understanding Binary Search | Lesson | 1:00     | Suresh Melvin Sigera |
+## Introduction
 
-### Learning Objectives
+Binary search is a highly efficient algorithm used for finding an element in a sorted array by repeatedly dividing the search interval in half. This lesson explores how binary search operates, its implementation details, and why it is more efficient than linear search methods in certain scenarios.
+
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- Explain how the binary search works
+- Explain the concept and operational mechanics of the binary search algorithm.
+- Implement the binary search algorithm in code.
+- Understand the conditions under which binary search can be applied (i.e., the array must be sorted).
+
+## Lesson Overview (60 minutes)
+
+1. [Concept of Binary Search](#Concept-of-Binary-Search)
+2. [Implementing Binary Search](#Implementing-Binary-Search)
+3. [Exercise: Binary Search Implementation](#Exercise-Binary-Search-Implementation)
+4. [Summary and Takeaways](#Summary-and-Takeaways)
+
+## Concept of Binary Search
 
 The idea behind the binary search is that we can first divide the array into two halves, and compare the element we’re
 searching for (call it `x` ) with the element in the middle (call it `m`) that divides the two halves of the array.
@@ -20,7 +31,16 @@ was in the array shown above. A visual diagram of how binary search would work i
 
 ![binary-search.png](assets/binary-search.png)
 
-### How to implement Binary search Algorithm:
+### Visualization
+Imagine an array of integers sorted in ascending order. To find a specific value, binary search would proceed as follows:
+
+- First, compare the target value with the middle element.
+- If the target value is higher, ignore the left half of the array. If lower, ignore the right half.
+- Repeat the process on the new half-array until the target is found or the subarray is empty.
+
+## Implementing Binary Search
+
+To implement binary search, follow these steps:
 
 1. **Ensure the Array is Sorted**: Confirm that the array is sorted in ascending or descending order. If not, sort the
    array using a suitable sorting algorithm. The order of sorting affects the direction of comparison in the search
@@ -90,6 +110,15 @@ public class BinarySearchDemo {
     }
 }
 ```
+
+## Exercise: Binary Search Implementation
+Implement binary search in a programming language of your choice using the above algorithm. Test your function with the following array and values:
+- Array: [3, 6, 8, 12, 14, 18]
+- Values to search: 14, 7
+
+**Discuss with peers:**
+- What happens when the searched value is not in the array?
+- How does the efficiency of binary search compare to linear search? 
 
 ## Summary and Key Takeaways
 
