@@ -18,10 +18,12 @@ Binary search is an efficient algorithm for finding a target value within a sort
 2. Compare the middle element of the search space with the **target**. 
 3. If the target is found at middle element, the process is terminated.
 4. If the target is not found at middle element, choose which half will be used as the next search space.
-     - If the target is smaller than the middle element, then the left side is used for next search.
-     - If the target is larger than the middle element, then the right side is used for next search.
+     - If the target is smaller than the middle element, then the left side (_side with values **lesser than mid** in an ascending sorted list_) is used for next search.
+     - If the target is larger than the middle element, then the right side (_side with values **greater than mid** in an ascending sorted list_)is used for next search.
 5. This process is continued until the target is found or the total search space is exhausted.
 6. If the target is found, Output the position. If the target is not found, output the message that the value doesn't exist.
+
+![How a binary search works on a sorted linear data structure](./assets/BinarySearch.png)
 
 ### Pseudocode
 ```plaintext
@@ -52,4 +54,5 @@ At each binary search step, the number of searched items in a list is reduced by
 2. Binary search is efficient only for linear data structures stored in contiguous memory location and accessible by index. It is inefficient for non-contiguous memory data structures like linked lists. Even though, they could be sorted, the average time complexity of accessing an element increases with the size of the data structure.
 
 ## Final reflections
-Binary Search in an efficient search algorithm that compares the target value to the middle element of the array. If they are equal, the search is successful. If the target is less than the middle element, the search continues in the lower half of the array. If the target is greater, the search continues in the upper half. This process repeats until the target is found or the search interval is empty.
+1. Binary Search in an efficient search algorithm with a time complexity of \(O(logn)\).
+2. It compares the target value to the middle element of a sorted array. If they are equal, the search is successful. If the target is less than the middle element, the search continues in the lower half of the array. If the target is greater, the search continues in the upper half. This process repeats until the target is found or the search scope is exhausted.
