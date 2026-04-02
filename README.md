@@ -28,9 +28,9 @@ Normal search algorithms, also called as linear searches, sequentially check eve
 
 ### Course landing pages
 
-- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/binary-search-in-java/canvas-landing-pages/jcd.html)
-- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/binary-search-in-java/canvas-landing-pages/jsc.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/binary-search-in-java/canvas-landing-pages/fallback.html)
+- [JCD - Java Career Development Program](https://ga-curriculum.github.io/binary-search-in-java/canvas-landing-pages/jcd.html)
+- [JSC - Java Short Course](https://ga-curriculum.github.io/binary-search-in-java/canvas-landing-pages/jsc.html)
+- [Fallback](https://ga-curriculum.github.io/binary-search-in-java/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -42,4 +42,4 @@ Normal search algorithms, also called as linear searches, sequentially check eve
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
